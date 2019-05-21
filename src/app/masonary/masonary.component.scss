@@ -1,0 +1,27 @@
+.ng-masonry-item{
+    max-width: 300px;
+    height: auto;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.button-group{
+    text-align: center;
+    button {
+        margin-right: 20px;
+        border: 1px solid #4a4a4a;
+        background-color: #737373;
+        color: #fff;
+        padding: 8px 15px;
+        cursor: pointer;
+        transition: 0.3s all ease-in;
+        &:hover, .active{
+            background-color: #000;
+            outline: none;
+        }
+        &:focus{
+            outline: none;
+        }
+    }
+}
